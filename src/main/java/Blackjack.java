@@ -1,9 +1,24 @@
 public class Blackjack {
 
+
+    /**
+     * calculate the score of any card at all
+     *
+     * @param card the string representation of a card
+     * @return the value of the card
+     */
     public int parseCard(String card) {
         throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
     }
 
+    /**
+     * Checks if 2 cards have the combined value of 21.
+     *
+     * @param card1 is the first String representation of a card
+     * @param card2 is the second String representation of a card
+     * @return whether it's a blackjack or not.
+     * @see <a href="https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos">Rules of Blackjack</a>
+     */
     public boolean isBlackjack(String card1, String card2) {
         throw new UnsupportedOperationException("Please implement the Blackjack.isBlackjack method");
     }
